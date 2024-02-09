@@ -52,5 +52,15 @@ Esta función ordena una cadena de texto de la A a la Z.
           str: La cadena ordenada o un string vacío si no se proporciona una cadena válida.
       """
 
+<h2>📔Uso:📔 </h2>
+Para utilizar las funciones en tu código Python, debes importarlas desde las respectivas carpetas correspondientes. Aquí tienes cómo hacerlo para cada una de las funciones:
+
+### 1. `apply_increase`
+
+Para importar la función `apply_increase` desde `Function_one`, puedes hacerlo de la siguiente manera en tu código Python:
+
+```python
+from Function_one.function_one import apply_increase
 
 
+### 2. `apply_increase`
