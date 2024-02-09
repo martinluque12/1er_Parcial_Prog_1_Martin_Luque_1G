@@ -8,6 +8,7 @@
 <h2>Funciones</h2>
 
 * apply_increase() Esta función permite aplicar un aumento del 5% a un precio dado.
+  
   def apply_increase(price_product: float) -> float:
     """
     Aplica un aumento del 5% a un precio.
