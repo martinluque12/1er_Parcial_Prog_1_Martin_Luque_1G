@@ -54,13 +54,29 @@ Esta función ordena una cadena de texto de la A a la Z.
 
 <h2>📔Uso:📔 </h2>
 Para utilizar las funciones en tu código Python, debes importarlas desde las respectivas carpetas correspondientes. Aquí tienes cómo hacerlo para cada una de las funciones:
+<div>
+### 1. `apply_increase()`
 
-### 1. `apply_increase`
-
-Para importar la función `apply_increase` desde `Function_one`, puedes hacerlo de la siguiente manera en tu código Python:
+Para importar la función `apply_increase()` desde `Function_one`, puedes hacerlo de la siguiente manera en tu código Python:
 
 ```python
-from Function_one.function_one import apply_increase
+from Function_one.function_one import apply_increase.
+```
 
+### 2. `replace_character()`
 
-### 2. `apply_increase`
+Para importar la función `replace_character()` desde `Function_two`, puedes hacerlo de la siguiente manera en tu código Python:
+
+```python
+from Function_two.function_two import replace_character
+```
+
+### 3. `sort_characters()`
+
+Para importar la función `sort_characters()` desde `Function_three`, puedes hacerlo de la siguiente manera en tu código Python:
+
+```python
+from Function_three.function_three import sort_characters
+```
+
+Una vez que hayas importado las funciones correctamente, podrás utilizarlas según sea necesario en tu programa.
