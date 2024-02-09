@@ -1,1 +1,20 @@
-# 1er_Parcial_Prog_1_Martin_Luque_1G
+<div align="center">
+  <h1>Funciones para Manipulación de Cadenas y Precios</h1>
+</div>
+<div>
+  <h2>Este repositorio contiene tres funciones en Python diseñadas para realizar operaciones comunes en cadenas de texto y manipulación de precios.</h2>
+</div>
+
+<h2>Funciones</h2>
+
+* apply_increase() Esta función permite aplicar un aumento del 5% a un precio dado.
+  def apply_increase(price_product: float) -> float:
+    """
+    Aplica un aumento del 5% a un precio.
+
+    Args:
+        price_product (float): El precio al cual se le aplicará el aumento.
+
+    Returns:
+        float: El precio más el aumento del 5%.
+    """
