@@ -13,8 +13,7 @@ Esta función permite aplicar un aumento del 5% a un precio dado.
 
     def apply_increase(price_product: float) -> float:
 
-      """
-      Aplica un aumento del 5% a un precio.
+      """Aplica un aumento del 5% a un precio.
       
       Args:
           price_product (float): El precio al cual se le aplicará el aumento.
@@ -30,8 +29,7 @@ Esta función reemplaza un carácter en una cadena de texto por otro y cuenta la
 
     def replace_character(string: str, character: str, new_character: str) -> tuple:
     
-      """
-      Reemplaza un carácter en una cadena de texto por otro y cuenta las veces que se reemplazó.
+      """Reemplaza un carácter en una cadena de texto por otro y cuenta las veces que se reemplazó.
       
       Args:
           string (str): La cadena de texto.
@@ -43,5 +41,21 @@ Esta función reemplaza un carácter en una cadena de texto por otro y cuenta la
                  y en segundo lugar la cantidad de veces que se reemplazó el carácter.
       
       """
+
+* sort_characters()
+
+Esta función ordena una cadena de texto de la A a la Z.
+
+    def sort_characters(string: str) -> str:
+      """Ordena una cadena de texto de la A a la Z.
+  
+      Args:
+          string (str): La cadena a ordenar.
+  
+      Returns:
+          str: La cadena ordenada o un string vacío si no se proporciona una cadena válida.
+          
+      """
+
 
 
