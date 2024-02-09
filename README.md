@@ -13,16 +13,16 @@ Esta función permite aplicar un aumento del 5% a un precio dado.
 
 def apply_increase(price_product: float) -> float:
 
-  """
-  Aplica un aumento del 5% a un precio.
-  
-  Args:
-      price_product (float): El precio al cual se le aplicará el aumento.
-  
-  Returns:
-      float: El precio más el aumento del 5%.
-  
-  """
+      """
+      Aplica un aumento del 5% a un precio.
+      
+      Args:
+          price_product (float): El precio al cual se le aplicará el aumento.
+      
+      Returns:
+          float: El precio más el aumento del 5%.
+      
+      """
 
 * replace_character()
 
